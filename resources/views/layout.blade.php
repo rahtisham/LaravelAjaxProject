@@ -12,7 +12,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+
     <div class="container">
+    <br><br><br>
+    <a class="btn btn-success" style="padding:10px;" href="{{ route('Student-view') }}">INSERT</a>
+    <a class="btn btn-warning" style="padding:10px;" href="{{ route('Student-submit-From') }}">UPDATE</a>
+    <a class="btn btn-warning" style="padding:10px;" href="{{ route('Import-file') }}">EMPORT FILE</a>
     @yield('content')
     </div>
 </body>

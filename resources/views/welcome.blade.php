@@ -68,8 +68,6 @@
         </style>
     </head>
     <body>
-    <a class="btn btn-success" href="{{ route('Student-view') }}">View Student</a>
-<a class="btn btn-warning" href="{{ route('Student-submit-From') }}">Student Add</a>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -91,15 +89,9 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-
+                <a class="btn btn-success" style="padding:10px;" href="{{ route('Student-view') }}">INSERT</a>
+                <a class="btn btn-warning" style="padding:10px;" href="{{ route('Student-submit-From') }}">UPDATE</a>
+                <a class="btn btn-warning" style="padding:10px;" href="{{ route('Import-file') }}">EMPORT FILE</a>
                 </div>
             </div>
         </div>

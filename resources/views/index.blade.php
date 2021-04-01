@@ -3,8 +3,7 @@
 
 
 <br><br><br>
-<a class="btn btn-success" href="{{ route('Student-view') }}">View Student</a>
-<a class="btn btn-warning" href="{{ route('Student-submit-From') }}">Student Add</a>
+
 <div class="row" style="margin-top:100px;">
   <div class="col-sm-3"></div><!--end of col-sm-3-->
   <div class="col-sm-6">

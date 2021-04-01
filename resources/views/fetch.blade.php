@@ -2,8 +2,6 @@
 @section('content')
 
 <br><br><br>
-<a class="btn btn-success" href="{{ route('Student-view') }}">View Student</a>
-<a class="btn btn-warning" href="{{ route('Student-submit-From') }}">Student Add</a><br><br>
   @if(\Session::has('success'))
   <div class="alert alert-success">
    <p>{{ \Session::get('success') }}</p>
